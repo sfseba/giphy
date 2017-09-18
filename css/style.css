@@ -1,0 +1,47 @@
+body {
+  background-color: #aed1c3;
+  color: #1c2947;
+}
+#pheader {
+  font-size: 25px;
+  font-family: "slim-joe" !important;
+}
+.animal_a {
+  background-color: #d05950;
+  color:  white;
+  margin-right: 2p;
+  letter-spacing: 1px;
+}
+b {
+font-size: 50px;
+}
+p{
+  padding-top: 1em;
+}
+#search-box {
+  font-size: 18px;
+  margin-top: 30px;
+}
+#add-name {
+  background-color: #e9b54a;
+  border-color: #dc8942;
+  border-style: dashed;
+  color: white;
+  margin-left: 8px;
+}
+label {
+  color: #455f73;
+  margin-right: 8px !important;
+}
+img {
+  margin: 5px;
+}
+#footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
