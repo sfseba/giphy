@@ -22,15 +22,9 @@ $.ajax({
 //  animalDiv.append(nameTextOne);
   var result = response.data;
   for(var i=0; i < result.length; i++){
-  $("#animals").prepend('<img class="gif" src="' + response.data[i].images.fixed_height_still.url + '">');
-  //var imgURL = response.data[i].images.fixed_height.url;
-  //var imgURLstill = response.data[i].images.fixed_height_still.url;
-  //var animalImage = $("<img>");
-  //var image = $("<img>").attr("src", imgURL);
-  //var imageStill = $("<img>").attr("src", imgURLstill);
-  //animalDiv.append(image);
-  //$("#animals").append(image);
-  //$("#animals").append(imageStill);
+  //$("#animals").prepend('<img class="gif" src="' + response.data[i].images.fixed_height_still.url + '">');
+  $("#animals").prepend('<img class="gif" src="' + response.data[i].images.fixed_height_still.url +  '">' +
+  "<label>" + "Rating: " + result[i].rating );
 
 }
 });
